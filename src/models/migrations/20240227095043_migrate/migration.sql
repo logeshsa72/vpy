@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE `salesbill` ADD COLUMN `Amount` INTEGER NULL,
+    ADD COLUMN `tax` INTEGER NULL,
+    ADD COLUMN `taxRate` INTEGER NULL;

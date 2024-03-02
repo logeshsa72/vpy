@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `salesreturn` MODIFY `createdAt` DATETIME(3) NULL DEFAULT CURRENT_TIMESTAMP(3),
+    MODIFY `dueDate` DATE NULL;
